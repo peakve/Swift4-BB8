@@ -1,0 +1,113 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - CHKLineChartKit (2.2.0)
+  - HandyJSON (4.1.1)
+  - HSStockChart (1.1.2)
+  - Moya (11.0.0):
+    - Moya/Core (= 11.0.0)
+  - Moya/Core (11.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - MZAppearance (1.1.6)
+  - MZFormSheetPresentationController (2.4.3):
+    - MZAppearance
+  - ReachabilitySwift (3)
+  - Result (3.2.4)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SlideMenuControllerSwift (4.0.0)
+  - SnapKit (4.0.0)
+  - SocketRocket (0.5.1)
+  - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
+  - SwiftyJSONMappable (1.0.3):
+    - SwiftyJSONMappable/Mappable (= 1.0.3)
+  - SwiftyJSONMappable/Mappable (1.0.3):
+    - SwiftyJSON (~> 3.1.4)
+  - SwiftyJSONMappable/Moya (1.0.3):
+    - Moya
+    - SwiftyJSONMappable/Mappable
+  - SwiftyUserDefaults (3.0.0)
+  - WeexPluginLoader (0.0.1.9.1):
+    - WeexSDK
+  - WeexSDK (0.13.0):
+    - SocketRocket
+  - WXDevtool (0.9.5):
+    - WeexSDK
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - CHKLineChartKit
+  - HandyJSON
+  - HSStockChart
+  - Moya
+  - MZFormSheetPresentationController
+  - ReachabilitySwift
+  - SDWebImage (= 3.7.5)
+  - SlideMenuControllerSwift
+  - SnapKit (~> 4.0.0)
+  - SocketRocket (~> 0.5.1)
+  - SVProgressHUD
+  - SwiftyJSON
+  - SwiftyJSONMappable
+  - SwiftyJSONMappable/Moya
+  - SwiftyUserDefaults
+  - WeexPluginLoader
+  - WeexSDK
+  - WXDevtool
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Charts
+    - CHKLineChartKit
+    - HandyJSON
+    - HSStockChart
+    - Moya
+    - MZAppearance
+    - MZFormSheetPresentationController
+    - ReachabilitySwift
+    - Result
+    - SDWebImage
+    - SlideMenuControllerSwift
+    - SnapKit
+    - SocketRocket
+    - SVProgressHUD
+    - SwiftyJSON
+    - SwiftyJSONMappable
+    - SwiftyUserDefaults
+    - WeexPluginLoader
+    - WeexSDK
+    - WXDevtool
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  CHKLineChartKit: 7d3108abafb56497cd26b5184db31b543d95cdf7
+  HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
+  HSStockChart: d83363c4683f04cbd103bac434f379740f7dddc9
+  Moya: be29766339783963a70d1279d69c891ab3a1393c
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  MZFormSheetPresentationController: fbfdbad31884f16fac17fbe3c44c168306cc1095
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwiftyJSONMappable: bd493cc2afde0477b3368d6b3c343b85bc8f0e78
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+  WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
+  WeexSDK: 4651f0314ea6d77d771d587a3fcb38cdab9750f5
+  WXDevtool: 5135a5c6f4426fb635babb9eacfa14352bc66dc6
+
+PODFILE CHECKSUM: 2a95bf0408b01c3cd186054c5bd1907ada1bc3bb
+
+COCOAPODS: 1.5.3

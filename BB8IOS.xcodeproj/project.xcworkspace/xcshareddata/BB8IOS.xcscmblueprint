@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "96a97b16-3ebb-48e1-8c11-df7d6d2ee9ac++7695",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "96a97b16-3ebb-48e1-8c11-df7d6d2ee9ac++7695" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "96a97b16-3ebb-48e1-8c11-df7d6d2ee9ac++7695" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1D0E88AB-D0D7-4849-8CD3-121A1331DA69",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "96a97b16-3ebb-48e1-8c11-df7d6d2ee9ac++7695" : "bb8\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BB8IOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "front\/BB8IOS\/BB8IOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.231",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96a97b16-3ebb-48e1-8c11-df7d6d2ee9ac++7695"
+    }
+  ]
+}

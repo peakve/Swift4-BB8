@@ -1,0 +1,1478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B31306ACA812FFE190CAA51 /* Pods_BB8IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A91080429B8A3F60F49CF8 /* Pods_BB8IOS.framework */; };
+		992C361220C515E200ABEF84 /* IntAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35F020C515E200ABEF84 /* IntAxisValueFormatter.swift */; };
+		992C361320C515E200ABEF84 /* DayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35F120C515E200ABEF84 /* DayAxisValueFormatter.swift */; };
+		992C361420C515E200ABEF84 /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35F220C515E200ABEF84 /* DateValueFormatter.swift */; };
+		992C361520C515E200ABEF84 /* LargeValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35F320C515E200ABEF84 /* LargeValueFormatter.swift */; };
+		992C361620C515E200ABEF84 /* XYMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35F520C515E200ABEF84 /* XYMarkerView.swift */; };
+		992C361720C515E200ABEF84 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35F620C515E200ABEF84 /* BalloonMarker.swift */; };
+		992C361820C515E200ABEF84 /* RadarMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35F720C515E200ABEF84 /* RadarMarkerView.swift */; };
+		992C361920C515E200ABEF84 /* DemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35F820C515E200ABEF84 /* DemoListViewController.swift */; };
+		992C361A20C515E200ABEF84 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35F920C515E200ABEF84 /* DemoBaseViewController.swift */; };
+		992C361B20C515E200ABEF84 /* MultipleLinesChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35FB20C515E200ABEF84 /* MultipleLinesChartViewController.swift */; };
+		992C361C20C515E200ABEF84 /* MultipleBarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35FC20C515E200ABEF84 /* MultipleBarChartViewController.swift */; };
+		992C361D20C515E200ABEF84 /* HalfPieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35FD20C515E200ABEF84 /* HalfPieChartViewController.swift */; };
+		992C361E20C515E200ABEF84 /* LineChartTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35FE20C515E200ABEF84 /* LineChartTimeViewController.swift */; };
+		992C361F20C515E200ABEF84 /* ColoredLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C35FF20C515E200ABEF84 /* ColoredLineChartViewController.swift */; };
+		992C362020C515E200ABEF84 /* LineChart2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360020C515E200ABEF84 /* LineChart2ViewController.swift */; };
+		992C362120C515E200ABEF84 /* LineChart1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360120C515E200ABEF84 /* LineChart1ViewController.swift */; };
+		992C362220C515E200ABEF84 /* NegativeStackedBarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360220C515E200ABEF84 /* NegativeStackedBarChartViewController.swift */; };
+		992C362320C515E200ABEF84 /* ScatterChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360320C515E200ABEF84 /* ScatterChartViewController.swift */; };
+		992C362420C515E200ABEF84 /* StackedBarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360420C515E200ABEF84 /* StackedBarChartViewController.swift */; };
+		992C362520C515E200ABEF84 /* BubbleChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360520C515E200ABEF84 /* BubbleChartViewController.swift */; };
+		992C362620C515E200ABEF84 /* LineChartFilledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360620C515E200ABEF84 /* LineChartFilledViewController.swift */; };
+		992C362720C515E200ABEF84 /* PositiveNegativeBarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360720C515E200ABEF84 /* PositiveNegativeBarChartViewController.swift */; };
+		992C362820C515E200ABEF84 /* AnotherBarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360820C515E200ABEF84 /* AnotherBarChartViewController.swift */; };
+		992C362920C515E200ABEF84 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360920C515E200ABEF84 /* PieChartViewController.swift */; };
+		992C362A20C515E200ABEF84 /* CubicLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360A20C515E200ABEF84 /* CubicLineChartViewController.swift */; };
+		992C362B20C515E200ABEF84 /* RadarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360B20C515E200ABEF84 /* RadarChartViewController.swift */; };
+		992C362C20C515E200ABEF84 /* HorizontalBarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360C20C515E200ABEF84 /* HorizontalBarChartViewController.swift */; };
+		992C362D20C515E200ABEF84 /* PiePolylineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360D20C515E200ABEF84 /* PiePolylineChartViewController.swift */; };
+		992C362E20C515E200ABEF84 /* CombinedChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360E20C515E200ABEF84 /* CombinedChartViewController.swift */; };
+		992C362F20C515E200ABEF84 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C360F20C515E200ABEF84 /* BarChartViewController.swift */; };
+		992C363020C515E200ABEF84 /* SinusBarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C361020C515E200ABEF84 /* SinusBarChartViewController.swift */; };
+		992C363120C515E200ABEF84 /* CandleStickChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C361120C515E200ABEF84 /* CandleStickChartViewController.swift */; };
+		992C363320C51B3100ABEF84 /* charts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992C363220C51B3100ABEF84 /* charts.storyboard */; };
+		992C363520C51D5000ABEF84 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C363420C51D5000ABEF84 /* UserViewController.swift */; };
+		992C365220C5230500ABEF84 /* RadarMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C363720C5230400ABEF84 /* RadarMarkerView.xib */; };
+		992C365320C5230500ABEF84 /* DemoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C363820C5230400ABEF84 /* DemoListViewController.xib */; };
+		992C365420C5230500ABEF84 /* SinusBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C363A20C5230400ABEF84 /* SinusBarChartViewController.xib */; };
+		992C365520C5230500ABEF84 /* BarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C363B20C5230400ABEF84 /* BarChartViewController.xib */; };
+		992C365620C5230500ABEF84 /* ColoredLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C363C20C5230400ABEF84 /* ColoredLineChartViewController.xib */; };
+		992C365720C5230500ABEF84 /* LineChart2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C363D20C5230400ABEF84 /* LineChart2ViewController.xib */; };
+		992C365820C5230500ABEF84 /* PiePolylineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C363E20C5230400ABEF84 /* PiePolylineChartViewController.xib */; };
+		992C365920C5230500ABEF84 /* PieChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C363F20C5230400ABEF84 /* PieChartViewController.xib */; };
+		992C365A20C5230500ABEF84 /* LineChart1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364020C5230400ABEF84 /* LineChart1ViewController.xib */; };
+		992C365B20C5230500ABEF84 /* MultipleLinesChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364120C5230400ABEF84 /* MultipleLinesChartViewController.xib */; };
+		992C365C20C5230500ABEF84 /* NegativeStackedBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364220C5230400ABEF84 /* NegativeStackedBarChartViewController.xib */; };
+		992C365D20C5230500ABEF84 /* MultipleBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364320C5230400ABEF84 /* MultipleBarChartViewController.xib */; };
+		992C365E20C5230500ABEF84 /* CombinedChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364420C5230400ABEF84 /* CombinedChartViewController.xib */; };
+		992C365F20C5230500ABEF84 /* StackedBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364520C5230400ABEF84 /* StackedBarChartViewController.xib */; };
+		992C366020C5230500ABEF84 /* HalfPieChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364620C5230400ABEF84 /* HalfPieChartViewController.xib */; };
+		992C366120C5230500ABEF84 /* HorizontalBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364720C5230400ABEF84 /* HorizontalBarChartViewController.xib */; };
+		992C366220C5230500ABEF84 /* CandleStickChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364820C5230400ABEF84 /* CandleStickChartViewController.xib */; };
+		992C366320C5230500ABEF84 /* ScatterChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364920C5230400ABEF84 /* ScatterChartViewController.xib */; };
+		992C366420C5230500ABEF84 /* PositiveNegativeBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364A20C5230400ABEF84 /* PositiveNegativeBarChartViewController.xib */; };
+		992C366520C5230500ABEF84 /* CubicLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364B20C5230400ABEF84 /* CubicLineChartViewController.xib */; };
+		992C366620C5230500ABEF84 /* LineChartFilledViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364C20C5230400ABEF84 /* LineChartFilledViewController.xib */; };
+		992C366720C5230500ABEF84 /* RadarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364D20C5230400ABEF84 /* RadarChartViewController.xib */; };
+		992C366820C5230500ABEF84 /* RealmDemosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364E20C5230400ABEF84 /* RealmDemosViewController.xib */; };
+		992C366920C5230500ABEF84 /* AnotherBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C364F20C5230400ABEF84 /* AnotherBarChartViewController.xib */; };
+		992C366A20C5230500ABEF84 /* BubbleChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C365020C5230400ABEF84 /* BubbleChartViewController.xib */; };
+		992C366B20C5230500ABEF84 /* LineChartTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C365120C5230400ABEF84 /* LineChartTimeViewController.xib */; };
+		992C367A20C5257F00ABEF84 /* WXEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 992C366F20C5257F00ABEF84 /* WXEventModule.m */; };
+		992C367B20C5257F00ABEF84 /* WXImageLoaderDefaultImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C367020C5257F00ABEF84 /* WXImageLoaderDefaultImplement.swift */; };
+		992C367C20C5257F00ABEF84 /* WXMapComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C367120C5257F00ABEF84 /* WXMapComponent.swift */; };
+		992C367D20C5257F00ABEF84 /* WXEventModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C367420C5257F00ABEF84 /* WXEventModule.swift */; };
+		992C367E20C5257F00ABEF84 /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 992C367520C5257F00ABEF84 /* WXImgLoaderDefaultImpl.m */; };
+		992C367F20C5257F00ABEF84 /* WXDivExtraComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C367620C5257F00ABEF84 /* WXDivExtraComponent.swift */; };
+		992C368020C5257F00ABEF84 /* WeexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C367720C5257F00ABEF84 /* WeexViewController.swift */; };
+		992C368120C5257F00ABEF84 /* WXDivExtraComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 992C367920C5257F00ABEF84 /* WXDivExtraComponent.m */; };
+		997E076220BD4DF30049543A /* BB8IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 997E076120BD4DF30049543A /* BB8IOSTests.m */; };
+		997E076D20BD4DF30049543A /* BB8IOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 997E076C20BD4DF30049543A /* BB8IOSUITests.m */; };
+		997E078E20BD50DA0049543A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 997E078D20BD50DA0049543A /* Podfile */; };
+		99886C1320C662FE00481E92 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886BF720C662FD00481E92 /* NetworkTool.swift */; };
+		99886C1420C662FE00481E92 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886BF820C662FD00481E92 /* SQLiteManager.swift */; };
+		99886C1720C662FE00481E92 /* ObjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886BFC20C662FD00481E92 /* ObjectResponse.swift */; };
+		99886C1820C662FE00481E92 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886BFD20C662FD00481E92 /* APIService.swift */; };
+		99886C1920C662FE00481E92 /* ListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886BFE20C662FD00481E92 /* ListResponse.swift */; };
+		99886C1A20C662FE00481E92 /* MyNetworkActivityChangeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886BFF20C662FD00481E92 /* MyNetworkActivityChangeType.swift */; };
+		99886C1B20C662FE00481E92 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C0020C662FD00481E92 /* Response.swift */; };
+		99886C1C20C662FE00481E92 /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C0420C662FD00481E92 /* UIKit+Extension.swift */; };
+		99886C1D20C662FE00481E92 /* Foundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C0520C662FD00481E92 /* Foundation+Extension.swift */; };
+		99886C1F20C662FE00481E92 /* NSData+CRC32.m in Sources */ = {isa = PBXBuildFile; fileRef = 99886C0720C662FD00481E92 /* NSData+CRC32.m */; };
+		99886C2020C662FE00481E92 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C0920C662FD00481E92 /* Constant.swift */; };
+		99886C2120C662FE00481E92 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C0A20C662FD00481E92 /* Log.swift */; };
+		99886C2920C6659C00481E92 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C2820C6659C00481E92 /* Entity.swift */; };
+		99886C2C20C66DBF00481E92 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C2B20C66DBF00481E92 /* ChartViewController.swift */; };
+		99886C2E20C66E0C00481E92 /* HSStockBasicInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C2D20C66E0C00481E92 /* HSStockBasicInfoModel.swift */; };
+		99886C3020C66E3100481E92 /* SegmentMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C2F20C66E3100481E92 /* SegmentMenu.swift */; };
+		99886C3220C66E7000481E92 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C3120C66E7000481E92 /* StockViewController.swift */; };
+		99886C3B20C66F5A00481E92 /* timeLineForDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 99886C3420C66F5A00481E92 /* timeLineForDay.json */; };
+		99886C3C20C66F5A00481E92 /* kLineForMonth.json in Resources */ = {isa = PBXBuildFile; fileRef = 99886C3520C66F5A00481E92 /* kLineForMonth.json */; };
+		99886C3D20C66F5A00481E92 /* kLineForDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 99886C3620C66F5A00481E92 /* kLineForDay.json */; };
+		99886C3E20C66F5A00481E92 /* kLineForWeek.json in Resources */ = {isa = PBXBuildFile; fileRef = 99886C3720C66F5A00481E92 /* kLineForWeek.json */; };
+		99886C3F20C66F5A00481E92 /* timeLineForFiveday.json in Resources */ = {isa = PBXBuildFile; fileRef = 99886C3820C66F5A00481E92 /* timeLineForFiveday.json */; };
+		99886C4020C66F5A00481E92 /* FiveTrade.json in Resources */ = {isa = PBXBuildFile; fileRef = 99886C3920C66F5A00481E92 /* FiveTrade.json */; };
+		99886C4120C66F5A00481E92 /* SZ300033.json in Resources */ = {isa = PBXBuildFile; fileRef = 99886C3A20C66F5A00481E92 /* SZ300033.json */; };
+		99886CA320C6828600481E92 /* CustomStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C8220C6828500481E92 /* CustomStyleViewController.swift */; };
+		99886CA420C6828600481E92 /* StyleSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C8320C6828500481E92 /* StyleSettingViewController.swift */; };
+		99886CA520C6828600481E92 /* ChartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C8420C6828500481E92 /* ChartDemoViewController.swift */; };
+		99886CA620C6828600481E92 /* DepthChartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C8520C6828500481E92 /* DepthChartDemoViewController.swift */; };
+		99886CA720C6828600481E92 /* CHKLine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99886C8620C6828500481E92 /* CHKLine.storyboard */; };
+		99886CA820C6828600481E92 /* SettingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C8720C6828500481E92 /* SettingListViewController.swift */; };
+		99886CA920C6828600481E92 /* ChartDatasFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C8920C6828500481E92 /* ChartDatasFetcher.swift */; };
+		99886CAA20C6828600481E92 /* KlineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C8A20C6828500481E92 /* KlineChartData.swift */; };
+		99886CAB20C6828600481E92 /* SeriesParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C8B20C6828500481E92 /* SeriesParam.swift */; };
+		99886CAC20C6828600481E92 /* Double+exension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C8D20C6828500481E92 /* Double+exension.swift */; };
+		99886CAD20C6828600481E92 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C8E20C6828500481E92 /* UIColor+extension.swift */; };
+		99886CAE20C6828600481E92 /* Int+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C8F20C6828500481E92 /* Int+extension.swift */; };
+		99886CAF20C6828600481E92 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9020C6828500481E92 /* String+extension.swift */; };
+		99886CB020C6828600481E92 /* NSDate+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9120C6828500481E92 /* NSDate+extension.swift */; };
+		99886CB120C6828600481E92 /* ChartStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9320C6828500481E92 /* ChartStyles.swift */; };
+		99886CB220C6828600481E92 /* ChartFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9420C6828500481E92 /* ChartFullViewController.swift */; };
+		99886CB320C6828600481E92 /* DemoSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9520C6828500481E92 /* DemoSelectViewController.swift */; };
+		99886CB420C6828600481E92 /* SettingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9620C6828500481E92 /* SettingDetailViewController.swift */; };
+		99886CB520C6828600481E92 /* ChartInTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9720C6828500481E92 /* ChartInTableViewController.swift */; };
+		99886CB620C6828600481E92 /* ChartCustomDesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9820C6828500481E92 /* ChartCustomDesignViewController.swift */; };
+		99886CB720C6828600481E92 /* SelectionPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9920C6828500481E92 /* SelectionPopView.swift */; };
+		99886CB820C6828600481E92 /* ChartImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9A20C6828500481E92 /* ChartImageViewController.swift */; };
+		99886CB920C6828600481E92 /* KChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9C20C6828500481E92 /* KChartCell.swift */; };
+		99886CBA20C6828600481E92 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9D20C6828500481E92 /* SectionHeaderView.swift */; };
+		99886CBB20C6828600481E92 /* SeriesSettingDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9E20C6828500481E92 /* SeriesSettingDetailCell.swift */; };
+		99886CBC20C6828600481E92 /* SeriesSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886C9F20C6828500481E92 /* SeriesSettingCell.swift */; };
+		99886CBD20C6828600481E92 /* TickerTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886CA020C6828500481E92 /* TickerTopView.swift */; };
+		99886CBE20C6828600481E92 /* ChartCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886CA120C6828500481E92 /* ChartCustomViewController.swift */; };
+		99886CBF20C6828600481E92 /* ChartStyleSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886CA220C6828500481E92 /* ChartStyleSettingViewController.swift */; };
+		99886CC920C68B5900481E92 /* KLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99886CC720C68B5900481E92 /* KLineViewController.swift */; };
+		99A9687020C7D1B8005E641D /* KlineResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A9686F20C7D1B8005E641D /* KlineResponse.swift */; };
+		99BC846E20BEAAC50032EB84 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC846D20BEAAC50032EB84 /* MainViewController.swift */; };
+		99BC847220BED5720032EB84 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC847120BED5720032EB84 /* FirstViewController.swift */; };
+		99BC847420BED5880032EB84 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC847320BED5880032EB84 /* SecondViewController.swift */; };
+		99BC847620BED8390032EB84 /* TmpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC847520BED8390032EB84 /* TmpViewController.swift */; };
+		99BC847F20BED8BA0032EB84 /* tmp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BC847E20BED8BA0032EB84 /* tmp.storyboard */; };
+		99BC848E20BFFBAA0032EB84 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC848D20BFFBAA0032EB84 /* Market.swift */; };
+		99BC849020BFFC680032EB84 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC848F20BFFC680032EB84 /* Symbol.swift */; };
+		99BC849220BFFCE90032EB84 /* TrendPriceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC849120BFFCE90032EB84 /* TrendPriceTime.swift */; };
+		99BC849520C0153C0032EB84 /* Left.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BC849420C0153C0032EB84 /* Left.storyboard */; };
+		99BC849720C018ED0032EB84 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC849620C018ED0032EB84 /* ContainerViewController.swift */; };
+		99BC849B20C01BBF0032EB84 /* LeftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC849A20C01BBF0032EB84 /* LeftTableViewController.swift */; };
+		99BC849D20C020300032EB84 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC849C20C020300032EB84 /* NewsViewController.swift */; };
+		99E47C3620BE650D0047A943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E47C2A20BE650D0047A943 /* Assets.xcassets */; };
+		99E47C3720BE650D0047A943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E47C2B20BE650D0047A943 /* LaunchScreen.storyboard */; };
+		99E47C3820BE650D0047A943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E47C2D20BE650D0047A943 /* Main.storyboard */; };
+		99E47C3A20BE650D0047A943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E47C3020BE650D0047A943 /* AppDelegate.swift */; };
+		99E47C3C20BE650D0047A943 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99E47C3320BE650D0047A943 /* Info.plist */; };
+		99E47C3E20BE67EE0047A943 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99E47C3D20BE67EE0047A943 /* InfoPlist.strings */; };
+		99E47DB020BE7D260047A943 /* bundlejs in Resources */ = {isa = PBXBuildFile; fileRef = 99E47DAF20BE7D260047A943 /* bundlejs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		997E075E20BD4DF30049543A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 997E073920BD4DF30049543A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 997E074020BD4DF30049543A;
+			remoteInfo = BB8IOS;
+		};
+		997E076920BD4DF30049543A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 997E073920BD4DF30049543A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 997E074020BD4DF30049543A;
+			remoteInfo = BB8IOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		992C35EC20C5024F00ABEF84 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		16A91080429B8A3F60F49CF8 /* Pods_BB8IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BB8IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBBE4A9DFB67A9DA9AFE2C9 /* Pods-BB8IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BB8IOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BB8IOS/Pods-BB8IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		992C35DC20C4FB9A00ABEF84 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		992C35F020C515E200ABEF84 /* IntAxisValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntAxisValueFormatter.swift; sourceTree = "<group>"; };
+		992C35F120C515E200ABEF84 /* DayAxisValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayAxisValueFormatter.swift; sourceTree = "<group>"; };
+		992C35F220C515E200ABEF84 /* DateValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		992C35F320C515E200ABEF84 /* LargeValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeValueFormatter.swift; sourceTree = "<group>"; };
+		992C35F520C515E200ABEF84 /* XYMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYMarkerView.swift; sourceTree = "<group>"; };
+		992C35F620C515E200ABEF84 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		992C35F720C515E200ABEF84 /* RadarMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarMarkerView.swift; sourceTree = "<group>"; };
+		992C35F820C515E200ABEF84 /* DemoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoListViewController.swift; sourceTree = "<group>"; };
+		992C35F920C515E200ABEF84 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
+		992C35FB20C515E200ABEF84 /* MultipleLinesChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleLinesChartViewController.swift; sourceTree = "<group>"; };
+		992C35FC20C515E200ABEF84 /* MultipleBarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleBarChartViewController.swift; sourceTree = "<group>"; };
+		992C35FD20C515E200ABEF84 /* HalfPieChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfPieChartViewController.swift; sourceTree = "<group>"; };
+		992C35FE20C515E200ABEF84 /* LineChartTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartTimeViewController.swift; sourceTree = "<group>"; };
+		992C35FF20C515E200ABEF84 /* ColoredLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredLineChartViewController.swift; sourceTree = "<group>"; };
+		992C360020C515E200ABEF84 /* LineChart2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart2ViewController.swift; sourceTree = "<group>"; };
+		992C360120C515E200ABEF84 /* LineChart1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart1ViewController.swift; sourceTree = "<group>"; };
+		992C360220C515E200ABEF84 /* NegativeStackedBarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeStackedBarChartViewController.swift; sourceTree = "<group>"; };
+		992C360320C515E200ABEF84 /* ScatterChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScatterChartViewController.swift; sourceTree = "<group>"; };
+		992C360420C515E200ABEF84 /* StackedBarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackedBarChartViewController.swift; sourceTree = "<group>"; };
+		992C360520C515E200ABEF84 /* BubbleChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleChartViewController.swift; sourceTree = "<group>"; };
+		992C360620C515E200ABEF84 /* LineChartFilledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartFilledViewController.swift; sourceTree = "<group>"; };
+		992C360720C515E200ABEF84 /* PositiveNegativeBarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveNegativeBarChartViewController.swift; sourceTree = "<group>"; };
+		992C360820C515E200ABEF84 /* AnotherBarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherBarChartViewController.swift; sourceTree = "<group>"; };
+		992C360920C515E200ABEF84 /* PieChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
+		992C360A20C515E200ABEF84 /* CubicLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicLineChartViewController.swift; sourceTree = "<group>"; };
+		992C360B20C515E200ABEF84 /* RadarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartViewController.swift; sourceTree = "<group>"; };
+		992C360C20C515E200ABEF84 /* HorizontalBarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalBarChartViewController.swift; sourceTree = "<group>"; };
+		992C360D20C515E200ABEF84 /* PiePolylineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiePolylineChartViewController.swift; sourceTree = "<group>"; };
+		992C360E20C515E200ABEF84 /* CombinedChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedChartViewController.swift; sourceTree = "<group>"; };
+		992C360F20C515E200ABEF84 /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		992C361020C515E200ABEF84 /* SinusBarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinusBarChartViewController.swift; sourceTree = "<group>"; };
+		992C361120C515E200ABEF84 /* CandleStickChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandleStickChartViewController.swift; sourceTree = "<group>"; };
+		992C363220C51B3100ABEF84 /* charts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = charts.storyboard; sourceTree = "<group>"; };
+		992C363420C51D5000ABEF84 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		992C363720C5230400ABEF84 /* RadarMarkerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadarMarkerView.xib; sourceTree = "<group>"; };
+		992C363820C5230400ABEF84 /* DemoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoListViewController.xib; sourceTree = "<group>"; };
+		992C363A20C5230400ABEF84 /* SinusBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinusBarChartViewController.xib; sourceTree = "<group>"; };
+		992C363B20C5230400ABEF84 /* BarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarChartViewController.xib; sourceTree = "<group>"; };
+		992C363C20C5230400ABEF84 /* ColoredLineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColoredLineChartViewController.xib; sourceTree = "<group>"; };
+		992C363D20C5230400ABEF84 /* LineChart2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineChart2ViewController.xib; sourceTree = "<group>"; };
+		992C363E20C5230400ABEF84 /* PiePolylineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PiePolylineChartViewController.xib; sourceTree = "<group>"; };
+		992C363F20C5230400ABEF84 /* PieChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieChartViewController.xib; sourceTree = "<group>"; };
+		992C364020C5230400ABEF84 /* LineChart1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineChart1ViewController.xib; sourceTree = "<group>"; };
+		992C364120C5230400ABEF84 /* MultipleLinesChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleLinesChartViewController.xib; sourceTree = "<group>"; };
+		992C364220C5230400ABEF84 /* NegativeStackedBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NegativeStackedBarChartViewController.xib; sourceTree = "<group>"; };
+		992C364320C5230400ABEF84 /* MultipleBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleBarChartViewController.xib; sourceTree = "<group>"; };
+		992C364420C5230400ABEF84 /* CombinedChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CombinedChartViewController.xib; sourceTree = "<group>"; };
+		992C364520C5230400ABEF84 /* StackedBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StackedBarChartViewController.xib; sourceTree = "<group>"; };
+		992C364620C5230400ABEF84 /* HalfPieChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HalfPieChartViewController.xib; sourceTree = "<group>"; };
+		992C364720C5230400ABEF84 /* HorizontalBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalBarChartViewController.xib; sourceTree = "<group>"; };
+		992C364820C5230400ABEF84 /* CandleStickChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CandleStickChartViewController.xib; sourceTree = "<group>"; };
+		992C364920C5230400ABEF84 /* ScatterChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScatterChartViewController.xib; sourceTree = "<group>"; };
+		992C364A20C5230400ABEF84 /* PositiveNegativeBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PositiveNegativeBarChartViewController.xib; sourceTree = "<group>"; };
+		992C364B20C5230400ABEF84 /* CubicLineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CubicLineChartViewController.xib; sourceTree = "<group>"; };
+		992C364C20C5230400ABEF84 /* LineChartFilledViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineChartFilledViewController.xib; sourceTree = "<group>"; };
+		992C364D20C5230400ABEF84 /* RadarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadarChartViewController.xib; sourceTree = "<group>"; };
+		992C364E20C5230400ABEF84 /* RealmDemosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealmDemosViewController.xib; sourceTree = "<group>"; };
+		992C364F20C5230400ABEF84 /* AnotherBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherBarChartViewController.xib; sourceTree = "<group>"; };
+		992C365020C5230400ABEF84 /* BubbleChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BubbleChartViewController.xib; sourceTree = "<group>"; };
+		992C365120C5230400ABEF84 /* LineChartTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineChartTimeViewController.xib; sourceTree = "<group>"; };
+		992C366F20C5257F00ABEF84 /* WXEventModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXEventModule.m; sourceTree = "<group>"; };
+		992C367020C5257F00ABEF84 /* WXImageLoaderDefaultImplement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXImageLoaderDefaultImplement.swift; sourceTree = "<group>"; };
+		992C367120C5257F00ABEF84 /* WXMapComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXMapComponent.swift; sourceTree = "<group>"; };
+		992C367220C5257F00ABEF84 /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
+		992C367320C5257F00ABEF84 /* WXEventModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXEventModule.h; sourceTree = "<group>"; };
+		992C367420C5257F00ABEF84 /* WXEventModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXEventModule.swift; sourceTree = "<group>"; };
+		992C367520C5257F00ABEF84 /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
+		992C367620C5257F00ABEF84 /* WXDivExtraComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXDivExtraComponent.swift; sourceTree = "<group>"; };
+		992C367720C5257F00ABEF84 /* WeexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeexViewController.swift; sourceTree = "<group>"; };
+		992C367820C5257F00ABEF84 /* WXDivExtraComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDivExtraComponent.h; sourceTree = "<group>"; };
+		992C367920C5257F00ABEF84 /* WXDivExtraComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDivExtraComponent.m; sourceTree = "<group>"; };
+		997E074120BD4DF30049543A /* BB8IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BB8IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		997E075D20BD4DF30049543A /* BB8IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BB8IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		997E076120BD4DF30049543A /* BB8IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BB8IOSTests.m; sourceTree = "<group>"; };
+		997E076320BD4DF30049543A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997E076820BD4DF30049543A /* BB8IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BB8IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		997E076C20BD4DF30049543A /* BB8IOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BB8IOSUITests.m; sourceTree = "<group>"; };
+		997E076E20BD4DF30049543A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997E077D20BD4E1C0049543A /* BB8IOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BB8IOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		997E078D20BD50DA0049543A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99886BF720C662FD00481E92 /* NetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		99886BF820C662FD00481E92 /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
+		99886BFC20C662FD00481E92 /* ObjectResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectResponse.swift; sourceTree = "<group>"; };
+		99886BFD20C662FD00481E92 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		99886BFE20C662FD00481E92 /* ListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListResponse.swift; sourceTree = "<group>"; };
+		99886BFF20C662FD00481E92 /* MyNetworkActivityChangeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNetworkActivityChangeType.swift; sourceTree = "<group>"; };
+		99886C0020C662FD00481E92 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		99886C0320C662FD00481E92 /* NSData+CRC32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CRC32.h"; sourceTree = "<group>"; };
+		99886C0420C662FD00481E92 /* UIKit+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
+		99886C0520C662FD00481E92 /* Foundation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Extension.swift"; sourceTree = "<group>"; };
+		99886C0720C662FD00481E92 /* NSData+CRC32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CRC32.m"; sourceTree = "<group>"; };
+		99886C0920C662FD00481E92 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		99886C0A20C662FD00481E92 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		99886C2820C6659C00481E92 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		99886C2B20C66DBF00481E92 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		99886C2D20C66E0C00481E92 /* HSStockBasicInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSStockBasicInfoModel.swift; sourceTree = "<group>"; };
+		99886C2F20C66E3100481E92 /* SegmentMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentMenu.swift; sourceTree = "<group>"; };
+		99886C3120C66E7000481E92 /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
+		99886C3420C66F5A00481E92 /* timeLineForDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLineForDay.json; sourceTree = "<group>"; };
+		99886C3520C66F5A00481E92 /* kLineForMonth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForMonth.json; sourceTree = "<group>"; };
+		99886C3620C66F5A00481E92 /* kLineForDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForDay.json; sourceTree = "<group>"; };
+		99886C3720C66F5A00481E92 /* kLineForWeek.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForWeek.json; sourceTree = "<group>"; };
+		99886C3820C66F5A00481E92 /* timeLineForFiveday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLineForFiveday.json; sourceTree = "<group>"; };
+		99886C3920C66F5A00481E92 /* FiveTrade.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FiveTrade.json; sourceTree = "<group>"; };
+		99886C3A20C66F5A00481E92 /* SZ300033.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SZ300033.json; sourceTree = "<group>"; };
+		99886C8220C6828500481E92 /* CustomStyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyleViewController.swift; sourceTree = "<group>"; };
+		99886C8320C6828500481E92 /* StyleSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSettingViewController.swift; sourceTree = "<group>"; };
+		99886C8420C6828500481E92 /* ChartDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDemoViewController.swift; sourceTree = "<group>"; };
+		99886C8520C6828500481E92 /* DepthChartDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthChartDemoViewController.swift; sourceTree = "<group>"; };
+		99886C8620C6828500481E92 /* CHKLine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CHKLine.storyboard; sourceTree = "<group>"; };
+		99886C8720C6828500481E92 /* SettingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingListViewController.swift; sourceTree = "<group>"; };
+		99886C8920C6828500481E92 /* ChartDatasFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDatasFetcher.swift; sourceTree = "<group>"; };
+		99886C8A20C6828500481E92 /* KlineChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlineChartData.swift; sourceTree = "<group>"; };
+		99886C8B20C6828500481E92 /* SeriesParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesParam.swift; sourceTree = "<group>"; };
+		99886C8D20C6828500481E92 /* Double+exension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+exension.swift"; sourceTree = "<group>"; };
+		99886C8E20C6828500481E92 /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		99886C8F20C6828500481E92 /* Int+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+extension.swift"; sourceTree = "<group>"; };
+		99886C9020C6828500481E92 /* String+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		99886C9120C6828500481E92 /* NSDate+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+extension.swift"; sourceTree = "<group>"; };
+		99886C9320C6828500481E92 /* ChartStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyles.swift; sourceTree = "<group>"; };
+		99886C9420C6828500481E92 /* ChartFullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartFullViewController.swift; sourceTree = "<group>"; };
+		99886C9520C6828500481E92 /* DemoSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSelectViewController.swift; sourceTree = "<group>"; };
+		99886C9620C6828500481E92 /* SettingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingDetailViewController.swift; sourceTree = "<group>"; };
+		99886C9720C6828500481E92 /* ChartInTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartInTableViewController.swift; sourceTree = "<group>"; };
+		99886C9820C6828500481E92 /* ChartCustomDesignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartCustomDesignViewController.swift; sourceTree = "<group>"; };
+		99886C9920C6828500481E92 /* SelectionPopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionPopView.swift; sourceTree = "<group>"; };
+		99886C9A20C6828500481E92 /* ChartImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartImageViewController.swift; sourceTree = "<group>"; };
+		99886C9C20C6828500481E92 /* KChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KChartCell.swift; sourceTree = "<group>"; };
+		99886C9D20C6828500481E92 /* SectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		99886C9E20C6828500481E92 /* SeriesSettingDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesSettingDetailCell.swift; sourceTree = "<group>"; };
+		99886C9F20C6828500481E92 /* SeriesSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesSettingCell.swift; sourceTree = "<group>"; };
+		99886CA020C6828500481E92 /* TickerTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickerTopView.swift; sourceTree = "<group>"; };
+		99886CA120C6828500481E92 /* ChartCustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartCustomViewController.swift; sourceTree = "<group>"; };
+		99886CA220C6828500481E92 /* ChartStyleSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyleSettingViewController.swift; sourceTree = "<group>"; };
+		99886CC720C68B5900481E92 /* KLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLineViewController.swift; sourceTree = "<group>"; };
+		99A9686F20C7D1B8005E641D /* KlineResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlineResponse.swift; sourceTree = "<group>"; };
+		99BC846D20BEAAC50032EB84 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		99BC847120BED5720032EB84 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		99BC847320BED5880032EB84 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		99BC847520BED8390032EB84 /* TmpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpViewController.swift; sourceTree = "<group>"; };
+		99BC847E20BED8BA0032EB84 /* tmp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tmp.storyboard; sourceTree = "<group>"; };
+		99BC848D20BFFBAA0032EB84 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		99BC848F20BFFC680032EB84 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		99BC849120BFFCE90032EB84 /* TrendPriceTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendPriceTime.swift; sourceTree = "<group>"; };
+		99BC849420C0153C0032EB84 /* Left.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Left.storyboard; sourceTree = "<group>"; };
+		99BC849620C018ED0032EB84 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		99BC849A20C01BBF0032EB84 /* LeftTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableViewController.swift; sourceTree = "<group>"; };
+		99BC849C20C020300032EB84 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		99E47C2A20BE650D0047A943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99E47C2C20BE650D0047A943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99E47C2E20BE650D0047A943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99E47C3020BE650D0047A943 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99E47C3320BE650D0047A943 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E47C3D20BE67EE0047A943 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		99E47DAF20BE7D260047A943 /* bundlejs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bundlejs; sourceTree = "<group>"; };
+		F46BFA6F2CC7CDA351B22DDE /* Pods-BB8IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BB8IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BB8IOS/Pods-BB8IOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		997E073E20BD4DF30049543A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B31306ACA812FFE190CAA51 /* Pods_BB8IOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997E075A20BD4DF30049543A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997E076520BD4DF30049543A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E9D82937221043449F68F9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FBBE4A9DFB67A9DA9AFE2C9 /* Pods-BB8IOS.debug.xcconfig */,
+				F46BFA6F2CC7CDA351B22DDE /* Pods-BB8IOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		992C35EE20C515E200ABEF84 /* charts */ = {
+			isa = PBXGroup;
+			children = (
+				992C363620C5230400ABEF84 /* XIBs */,
+				992C35EF20C515E200ABEF84 /* Formatters */,
+				992C35F420C515E200ABEF84 /* Components */,
+				992C35F820C515E200ABEF84 /* DemoListViewController.swift */,
+				992C35F920C515E200ABEF84 /* DemoBaseViewController.swift */,
+				992C35FA20C515E200ABEF84 /* Demos */,
+				992C363220C51B3100ABEF84 /* charts.storyboard */,
+			);
+			path = charts;
+			sourceTree = "<group>";
+		};
+		992C35EF20C515E200ABEF84 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				992C35F020C515E200ABEF84 /* IntAxisValueFormatter.swift */,
+				992C35F120C515E200ABEF84 /* DayAxisValueFormatter.swift */,
+				992C35F220C515E200ABEF84 /* DateValueFormatter.swift */,
+				992C35F320C515E200ABEF84 /* LargeValueFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		992C35F420C515E200ABEF84 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				992C35F520C515E200ABEF84 /* XYMarkerView.swift */,
+				992C35F620C515E200ABEF84 /* BalloonMarker.swift */,
+				992C35F720C515E200ABEF84 /* RadarMarkerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		992C35FA20C515E200ABEF84 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				992C35FB20C515E200ABEF84 /* MultipleLinesChartViewController.swift */,
+				992C35FC20C515E200ABEF84 /* MultipleBarChartViewController.swift */,
+				992C35FD20C515E200ABEF84 /* HalfPieChartViewController.swift */,
+				992C35FE20C515E200ABEF84 /* LineChartTimeViewController.swift */,
+				992C35FF20C515E200ABEF84 /* ColoredLineChartViewController.swift */,
+				992C360020C515E200ABEF84 /* LineChart2ViewController.swift */,
+				992C360120C515E200ABEF84 /* LineChart1ViewController.swift */,
+				992C360220C515E200ABEF84 /* NegativeStackedBarChartViewController.swift */,
+				992C360320C515E200ABEF84 /* ScatterChartViewController.swift */,
+				992C360420C515E200ABEF84 /* StackedBarChartViewController.swift */,
+				992C360520C515E200ABEF84 /* BubbleChartViewController.swift */,
+				992C360620C515E200ABEF84 /* LineChartFilledViewController.swift */,
+				992C360720C515E200ABEF84 /* PositiveNegativeBarChartViewController.swift */,
+				992C360820C515E200ABEF84 /* AnotherBarChartViewController.swift */,
+				992C360920C515E200ABEF84 /* PieChartViewController.swift */,
+				992C360A20C515E200ABEF84 /* CubicLineChartViewController.swift */,
+				992C360B20C515E200ABEF84 /* RadarChartViewController.swift */,
+				992C360C20C515E200ABEF84 /* HorizontalBarChartViewController.swift */,
+				992C360D20C515E200ABEF84 /* PiePolylineChartViewController.swift */,
+				992C360E20C515E200ABEF84 /* CombinedChartViewController.swift */,
+				992C360F20C515E200ABEF84 /* BarChartViewController.swift */,
+				992C361020C515E200ABEF84 /* SinusBarChartViewController.swift */,
+				992C361120C515E200ABEF84 /* CandleStickChartViewController.swift */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		992C363620C5230400ABEF84 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				992C363720C5230400ABEF84 /* RadarMarkerView.xib */,
+				992C363820C5230400ABEF84 /* DemoListViewController.xib */,
+				992C363920C5230400ABEF84 /* Demos */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		992C363920C5230400ABEF84 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				992C363A20C5230400ABEF84 /* SinusBarChartViewController.xib */,
+				992C363B20C5230400ABEF84 /* BarChartViewController.xib */,
+				992C363C20C5230400ABEF84 /* ColoredLineChartViewController.xib */,
+				992C363D20C5230400ABEF84 /* LineChart2ViewController.xib */,
+				992C363E20C5230400ABEF84 /* PiePolylineChartViewController.xib */,
+				992C363F20C5230400ABEF84 /* PieChartViewController.xib */,
+				992C364020C5230400ABEF84 /* LineChart1ViewController.xib */,
+				992C364120C5230400ABEF84 /* MultipleLinesChartViewController.xib */,
+				992C364220C5230400ABEF84 /* NegativeStackedBarChartViewController.xib */,
+				992C364320C5230400ABEF84 /* MultipleBarChartViewController.xib */,
+				992C364420C5230400ABEF84 /* CombinedChartViewController.xib */,
+				992C364520C5230400ABEF84 /* StackedBarChartViewController.xib */,
+				992C364620C5230400ABEF84 /* HalfPieChartViewController.xib */,
+				992C364720C5230400ABEF84 /* HorizontalBarChartViewController.xib */,
+				992C364820C5230400ABEF84 /* CandleStickChartViewController.xib */,
+				992C364920C5230400ABEF84 /* ScatterChartViewController.xib */,
+				992C364A20C5230400ABEF84 /* PositiveNegativeBarChartViewController.xib */,
+				992C364B20C5230400ABEF84 /* CubicLineChartViewController.xib */,
+				992C364C20C5230400ABEF84 /* LineChartFilledViewController.xib */,
+				992C364D20C5230400ABEF84 /* RadarChartViewController.xib */,
+				992C364E20C5230400ABEF84 /* RealmDemosViewController.xib */,
+				992C364F20C5230400ABEF84 /* AnotherBarChartViewController.xib */,
+				992C365020C5230400ABEF84 /* BubbleChartViewController.xib */,
+				992C365120C5230400ABEF84 /* LineChartTimeViewController.xib */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		992C366D20C5257F00ABEF84 /* Weex */ = {
+			isa = PBXGroup;
+			children = (
+				992C366E20C5257F00ABEF84 /* extend */,
+				992C367620C5257F00ABEF84 /* WXDivExtraComponent.swift */,
+				992C367720C5257F00ABEF84 /* WeexViewController.swift */,
+				992C367820C5257F00ABEF84 /* WXDivExtraComponent.h */,
+				992C367920C5257F00ABEF84 /* WXDivExtraComponent.m */,
+			);
+			path = Weex;
+			sourceTree = "<group>";
+		};
+		992C366E20C5257F00ABEF84 /* extend */ = {
+			isa = PBXGroup;
+			children = (
+				992C366F20C5257F00ABEF84 /* WXEventModule.m */,
+				992C367020C5257F00ABEF84 /* WXImageLoaderDefaultImplement.swift */,
+				992C367120C5257F00ABEF84 /* WXMapComponent.swift */,
+				992C367220C5257F00ABEF84 /* WXImgLoaderDefaultImpl.h */,
+				992C367320C5257F00ABEF84 /* WXEventModule.h */,
+				992C367420C5257F00ABEF84 /* WXEventModule.swift */,
+				992C367520C5257F00ABEF84 /* WXImgLoaderDefaultImpl.m */,
+			);
+			path = extend;
+			sourceTree = "<group>";
+		};
+		997E073820BD4DF30049543A = {
+			isa = PBXGroup;
+			children = (
+				99E47DAF20BE7D260047A943 /* bundlejs */,
+				997E078D20BD50DA0049543A /* Podfile */,
+				99E47C2620BE650D0047A943 /* BB8IOS */,
+				997E076020BD4DF30049543A /* BB8IOSTests */,
+				997E076B20BD4DF30049543A /* BB8IOSUITests */,
+				997E074220BD4DF30049543A /* Products */,
+				997E077D20BD4E1C0049543A /* BB8IOS-Bridging-Header.h */,
+				7E9D82937221043449F68F9B /* Pods */,
+				AD45F3EDE791898577AC3591 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		997E074220BD4DF30049543A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				997E074120BD4DF30049543A /* BB8IOS.app */,
+				997E075D20BD4DF30049543A /* BB8IOSTests.xctest */,
+				997E076820BD4DF30049543A /* BB8IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		997E076020BD4DF30049543A /* BB8IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				997E076120BD4DF30049543A /* BB8IOSTests.m */,
+				997E076320BD4DF30049543A /* Info.plist */,
+			);
+			path = BB8IOSTests;
+			sourceTree = "<group>";
+		};
+		997E076B20BD4DF30049543A /* BB8IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				997E076C20BD4DF30049543A /* BB8IOSUITests.m */,
+				997E076E20BD4DF30049543A /* Info.plist */,
+			);
+			path = BB8IOSUITests;
+			sourceTree = "<group>";
+		};
+		99886BF420C662FD00481E92 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				99886C2720C6658900481E92 /* Model */,
+				99886BF520C662FD00481E92 /* Tools */,
+				99886BFB20C662FD00481E92 /* Net */,
+				99886C0120C662FD00481E92 /* Extension */,
+				99886C0820C662FD00481E92 /* Util */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		99886BF520C662FD00481E92 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				99886BF720C662FD00481E92 /* NetworkTool.swift */,
+				99886BF820C662FD00481E92 /* SQLiteManager.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		99886BFB20C662FD00481E92 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				99886BFC20C662FD00481E92 /* ObjectResponse.swift */,
+				99886BFD20C662FD00481E92 /* APIService.swift */,
+				99886BFE20C662FD00481E92 /* ListResponse.swift */,
+				99886BFF20C662FD00481E92 /* MyNetworkActivityChangeType.swift */,
+				99886C0020C662FD00481E92 /* Response.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		99886C0120C662FD00481E92 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				99886C0320C662FD00481E92 /* NSData+CRC32.h */,
+				99886C0420C662FD00481E92 /* UIKit+Extension.swift */,
+				99886C0520C662FD00481E92 /* Foundation+Extension.swift */,
+				99886C0720C662FD00481E92 /* NSData+CRC32.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		99886C0820C662FD00481E92 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				99886C0920C662FD00481E92 /* Constant.swift */,
+				99886C0A20C662FD00481E92 /* Log.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		99886C2720C6658900481E92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99886C2820C6659C00481E92 /* Entity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99886C2A20C66D8100481E92 /* HSStock */ = {
+			isa = PBXGroup;
+			children = (
+				99886C3320C66F5A00481E92 /* SampleData */,
+				99886C2B20C66DBF00481E92 /* ChartViewController.swift */,
+				99886C2D20C66E0C00481E92 /* HSStockBasicInfoModel.swift */,
+				99886C2F20C66E3100481E92 /* SegmentMenu.swift */,
+				99886C3120C66E7000481E92 /* StockViewController.swift */,
+			);
+			path = HSStock;
+			sourceTree = "<group>";
+		};
+		99886C3320C66F5A00481E92 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				99886C3420C66F5A00481E92 /* timeLineForDay.json */,
+				99886C3520C66F5A00481E92 /* kLineForMonth.json */,
+				99886C3620C66F5A00481E92 /* kLineForDay.json */,
+				99886C3720C66F5A00481E92 /* kLineForWeek.json */,
+				99886C3820C66F5A00481E92 /* timeLineForFiveday.json */,
+				99886C3920C66F5A00481E92 /* FiveTrade.json */,
+				99886C3A20C66F5A00481E92 /* SZ300033.json */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		99886C4220C66FA500481E92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99886C8120C6828500481E92 /* CHKLine */ = {
+			isa = PBXGroup;
+			children = (
+				99886C8220C6828500481E92 /* CustomStyleViewController.swift */,
+				99886C8320C6828500481E92 /* StyleSettingViewController.swift */,
+				99886C8420C6828500481E92 /* ChartDemoViewController.swift */,
+				99886C8520C6828500481E92 /* DepthChartDemoViewController.swift */,
+				99886C8620C6828500481E92 /* CHKLine.storyboard */,
+				99886C8720C6828500481E92 /* SettingListViewController.swift */,
+				99886C8820C6828500481E92 /* models */,
+				99886C8C20C6828500481E92 /* extensions */,
+				99886C9220C6828500481E92 /* styles */,
+				99886C9420C6828500481E92 /* ChartFullViewController.swift */,
+				99886C9520C6828500481E92 /* DemoSelectViewController.swift */,
+				99886C9620C6828500481E92 /* SettingDetailViewController.swift */,
+				99886C9720C6828500481E92 /* ChartInTableViewController.swift */,
+				99886C9820C6828500481E92 /* ChartCustomDesignViewController.swift */,
+				99886C9920C6828500481E92 /* SelectionPopView.swift */,
+				99886C9A20C6828500481E92 /* ChartImageViewController.swift */,
+				99886C9B20C6828500481E92 /* views */,
+				99886CA120C6828500481E92 /* ChartCustomViewController.swift */,
+				99886CA220C6828500481E92 /* ChartStyleSettingViewController.swift */,
+			);
+			path = CHKLine;
+			sourceTree = "<group>";
+		};
+		99886C8820C6828500481E92 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				99886C8920C6828500481E92 /* ChartDatasFetcher.swift */,
+				99886C8A20C6828500481E92 /* KlineChartData.swift */,
+				99886C8B20C6828500481E92 /* SeriesParam.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		99886C8C20C6828500481E92 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99886C8D20C6828500481E92 /* Double+exension.swift */,
+				99886C8E20C6828500481E92 /* UIColor+extension.swift */,
+				99886C8F20C6828500481E92 /* Int+extension.swift */,
+				99886C9020C6828500481E92 /* String+extension.swift */,
+				99886C9120C6828500481E92 /* NSDate+extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		99886C9220C6828500481E92 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				99886C9320C6828500481E92 /* ChartStyles.swift */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
+		99886C9B20C6828500481E92 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				99886C9C20C6828500481E92 /* KChartCell.swift */,
+				99886C9D20C6828500481E92 /* SectionHeaderView.swift */,
+				99886C9E20C6828500481E92 /* SeriesSettingDetailCell.swift */,
+				99886C9F20C6828500481E92 /* SeriesSettingCell.swift */,
+				99886CA020C6828500481E92 /* TickerTopView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		99BC847720BED8580032EB84 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				99886C8120C6828500481E92 /* CHKLine */,
+				99886C2A20C66D8100481E92 /* HSStock */,
+				992C35EE20C515E200ABEF84 /* charts */,
+				99BC847B20BED8950032EB84 /* demo */,
+				99BC847820BED86A0032EB84 /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		99BC847820BED86A0032EB84 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				99886C4220C66FA500481E92 /* Model */,
+				99BC849320C014F00032EB84 /* Controller */,
+				99BC847920BED87B0032EB84 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		99BC847920BED87B0032EB84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99BC849420C0153C0032EB84 /* Left.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99BC847B20BED8950032EB84 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				99BC848C20BFFB710032EB84 /* model */,
+				99BC847D20BED8A70032EB84 /* controller */,
+				99BC847C20BED8A00032EB84 /* ui */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		99BC847C20BED8A00032EB84 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				99BC847E20BED8BA0032EB84 /* tmp.storyboard */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		99BC847D20BED8A70032EB84 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				99BC847520BED8390032EB84 /* TmpViewController.swift */,
+				99886CC720C68B5900481E92 /* KLineViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		99BC848C20BFFB710032EB84 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				99BC848D20BFFBAA0032EB84 /* Market.swift */,
+				99BC848F20BFFC680032EB84 /* Symbol.swift */,
+				99BC849120BFFCE90032EB84 /* TrendPriceTime.swift */,
+				99A9686F20C7D1B8005E641D /* KlineResponse.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		99BC849320C014F00032EB84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99BC847120BED5720032EB84 /* FirstViewController.swift */,
+				99BC847320BED5880032EB84 /* SecondViewController.swift */,
+				99BC846D20BEAAC50032EB84 /* MainViewController.swift */,
+				99BC849620C018ED0032EB84 /* ContainerViewController.swift */,
+				99BC849A20C01BBF0032EB84 /* LeftTableViewController.swift */,
+				99BC849C20C020300032EB84 /* NewsViewController.swift */,
+				992C363420C51D5000ABEF84 /* UserViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99E47C2620BE650D0047A943 /* BB8IOS */ = {
+			isa = PBXGroup;
+			children = (
+				99886BF420C662FD00481E92 /* Main */,
+				992C366D20C5257F00ABEF84 /* Weex */,
+				99BC847720BED8580032EB84 /* Module */,
+				99E47C2A20BE650D0047A943 /* Assets.xcassets */,
+				99E47C2B20BE650D0047A943 /* LaunchScreen.storyboard */,
+				99E47C2D20BE650D0047A943 /* Main.storyboard */,
+				99E47C3020BE650D0047A943 /* AppDelegate.swift */,
+				99E47C3320BE650D0047A943 /* Info.plist */,
+				99E47C3D20BE67EE0047A943 /* InfoPlist.strings */,
+			);
+			path = BB8IOS;
+			sourceTree = "<group>";
+		};
+		AD45F3EDE791898577AC3591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				992C35DC20C4FB9A00ABEF84 /* Charts.framework */,
+				16A91080429B8A3F60F49CF8 /* Pods_BB8IOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		997E074020BD4DF30049543A /* BB8IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997E077120BD4DF30049543A /* Build configuration list for PBXNativeTarget "BB8IOS" */;
+			buildPhases = (
+				46BF43402C69FEE97D478C2E /* [CP] Check Pods Manifest.lock */,
+				997E073D20BD4DF30049543A /* Sources */,
+				997E073E20BD4DF30049543A /* Frameworks */,
+				997E073F20BD4DF30049543A /* Resources */,
+				B498968F36472730F152E11C /* [CP] Embed Pods Frameworks */,
+				04382C3D3D1FC71EDCE65375 /* [CP] Copy Pods Resources */,
+				992C35EC20C5024F00ABEF84 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BB8IOS;
+			productName = BB8IOS;
+			productReference = 997E074120BD4DF30049543A /* BB8IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		997E075C20BD4DF30049543A /* BB8IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997E077420BD4DF30049543A /* Build configuration list for PBXNativeTarget "BB8IOSTests" */;
+			buildPhases = (
+				997E075920BD4DF30049543A /* Sources */,
+				997E075A20BD4DF30049543A /* Frameworks */,
+				997E075B20BD4DF30049543A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				997E075F20BD4DF30049543A /* PBXTargetDependency */,
+			);
+			name = BB8IOSTests;
+			productName = BB8IOSTests;
+			productReference = 997E075D20BD4DF30049543A /* BB8IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		997E076720BD4DF30049543A /* BB8IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997E077720BD4DF30049543A /* Build configuration list for PBXNativeTarget "BB8IOSUITests" */;
+			buildPhases = (
+				997E076420BD4DF30049543A /* Sources */,
+				997E076520BD4DF30049543A /* Frameworks */,
+				997E076620BD4DF30049543A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				997E076A20BD4DF30049543A /* PBXTargetDependency */,
+			);
+			name = BB8IOSUITests;
+			productName = BB8IOSUITests;
+			productReference = 997E076820BD4DF30049543A /* BB8IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		997E073920BD4DF30049543A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 51bb8;
+				TargetAttributes = {
+					997E074020BD4DF30049543A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					997E075C20BD4DF30049543A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 997E074020BD4DF30049543A;
+					};
+					997E076720BD4DF30049543A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 997E074020BD4DF30049543A;
+					};
+				};
+			};
+			buildConfigurationList = 997E073C20BD4DF30049543A /* Build configuration list for PBXProject "BB8IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 997E073820BD4DF30049543A;
+			productRefGroup = 997E074220BD4DF30049543A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				997E074020BD4DF30049543A /* BB8IOS */,
+				997E075C20BD4DF30049543A /* BB8IOSTests */,
+				997E076720BD4DF30049543A /* BB8IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		997E073F20BD4DF30049543A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992C366520C5230500ABEF84 /* CubicLineChartViewController.xib in Resources */,
+				99BC849520C0153C0032EB84 /* Left.storyboard in Resources */,
+				992C365B20C5230500ABEF84 /* MultipleLinesChartViewController.xib in Resources */,
+				992C363320C51B3100ABEF84 /* charts.storyboard in Resources */,
+				992C365620C5230500ABEF84 /* ColoredLineChartViewController.xib in Resources */,
+				992C365220C5230500ABEF84 /* RadarMarkerView.xib in Resources */,
+				992C366420C5230500ABEF84 /* PositiveNegativeBarChartViewController.xib in Resources */,
+				992C365D20C5230500ABEF84 /* MultipleBarChartViewController.xib in Resources */,
+				992C366720C5230500ABEF84 /* RadarChartViewController.xib in Resources */,
+				99886C3D20C66F5A00481E92 /* kLineForDay.json in Resources */,
+				992C366320C5230500ABEF84 /* ScatterChartViewController.xib in Resources */,
+				992C365420C5230500ABEF84 /* SinusBarChartViewController.xib in Resources */,
+				99E47C3720BE650D0047A943 /* LaunchScreen.storyboard in Resources */,
+				99E47C3E20BE67EE0047A943 /* InfoPlist.strings in Resources */,
+				992C365820C5230500ABEF84 /* PiePolylineChartViewController.xib in Resources */,
+				992C366A20C5230500ABEF84 /* BubbleChartViewController.xib in Resources */,
+				992C365A20C5230500ABEF84 /* LineChart1ViewController.xib in Resources */,
+				99886C3F20C66F5A00481E92 /* timeLineForFiveday.json in Resources */,
+				992C365C20C5230500ABEF84 /* NegativeStackedBarChartViewController.xib in Resources */,
+				99E47DB020BE7D260047A943 /* bundlejs in Resources */,
+				99886C3C20C66F5A00481E92 /* kLineForMonth.json in Resources */,
+				992C365720C5230500ABEF84 /* LineChart2ViewController.xib in Resources */,
+				99E47C3620BE650D0047A943 /* Assets.xcassets in Resources */,
+				992C366B20C5230500ABEF84 /* LineChartTimeViewController.xib in Resources */,
+				992C366920C5230500ABEF84 /* AnotherBarChartViewController.xib in Resources */,
+				992C365320C5230500ABEF84 /* DemoListViewController.xib in Resources */,
+				992C365520C5230500ABEF84 /* BarChartViewController.xib in Resources */,
+				997E078E20BD50DA0049543A /* Podfile in Resources */,
+				992C366020C5230500ABEF84 /* HalfPieChartViewController.xib in Resources */,
+				99886C4120C66F5A00481E92 /* SZ300033.json in Resources */,
+				99886C3B20C66F5A00481E92 /* timeLineForDay.json in Resources */,
+				99886CA720C6828600481E92 /* CHKLine.storyboard in Resources */,
+				99886C4020C66F5A00481E92 /* FiveTrade.json in Resources */,
+				992C365920C5230500ABEF84 /* PieChartViewController.xib in Resources */,
+				992C365E20C5230500ABEF84 /* CombinedChartViewController.xib in Resources */,
+				992C366620C5230500ABEF84 /* LineChartFilledViewController.xib in Resources */,
+				992C366120C5230500ABEF84 /* HorizontalBarChartViewController.xib in Resources */,
+				99E47C3C20BE650D0047A943 /* Info.plist in Resources */,
+				992C366820C5230500ABEF84 /* RealmDemosViewController.xib in Resources */,
+				992C365F20C5230500ABEF84 /* StackedBarChartViewController.xib in Resources */,
+				992C366220C5230500ABEF84 /* CandleStickChartViewController.xib in Resources */,
+				99BC847F20BED8BA0032EB84 /* tmp.storyboard in Resources */,
+				99E47C3820BE650D0047A943 /* Main.storyboard in Resources */,
+				99886C3E20C66F5A00481E92 /* kLineForWeek.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997E075B20BD4DF30049543A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997E076620BD4DF30049543A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04382C3D3D1FC71EDCE65375 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BB8IOS/Pods-BB8IOS-resources.sh",
+				"${PODS_ROOT}/WeexSDK/WeexSDK.framework/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/WeexSDK.framework/wx_load_error@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BB8IOS/Pods-BB8IOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46BF43402C69FEE97D478C2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BB8IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B498968F36472730F152E11C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BB8IOS/Pods-BB8IOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CHKLineChartKit/CHKLineChartKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/HSStockChart/HSStockChart.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/MZAppearance/MZAppearance.framework",
+				"${BUILT_PRODUCTS_DIR}/MZFormSheetPresentationController/MZFormSheetPresentationController.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSONMappable/SwiftyJSONMappable.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHKLineChartKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HSStockChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZAppearance.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZFormSheetPresentationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSONMappable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BB8IOS/Pods-BB8IOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		997E073D20BD4DF30049543A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99886C1F20C662FE00481E92 /* NSData+CRC32.m in Sources */,
+				99BC849720C018ED0032EB84 /* ContainerViewController.swift in Sources */,
+				99BC847420BED5880032EB84 /* SecondViewController.swift in Sources */,
+				992C362320C515E200ABEF84 /* ScatterChartViewController.swift in Sources */,
+				99886C3020C66E3100481E92 /* SegmentMenu.swift in Sources */,
+				99886C2020C662FE00481E92 /* Constant.swift in Sources */,
+				99886CB320C6828600481E92 /* DemoSelectViewController.swift in Sources */,
+				992C362720C515E200ABEF84 /* PositiveNegativeBarChartViewController.swift in Sources */,
+				99886C2E20C66E0C00481E92 /* HSStockBasicInfoModel.swift in Sources */,
+				992C367D20C5257F00ABEF84 /* WXEventModule.swift in Sources */,
+				99886CA420C6828600481E92 /* StyleSettingViewController.swift in Sources */,
+				99886CA320C6828600481E92 /* CustomStyleViewController.swift in Sources */,
+				992C361E20C515E200ABEF84 /* LineChartTimeViewController.swift in Sources */,
+				99886CB820C6828600481E92 /* ChartImageViewController.swift in Sources */,
+				992C362C20C515E200ABEF84 /* HorizontalBarChartViewController.swift in Sources */,
+				99886C1C20C662FE00481E92 /* UIKit+Extension.swift in Sources */,
+				992C363120C515E200ABEF84 /* CandleStickChartViewController.swift in Sources */,
+				99886CA820C6828600481E92 /* SettingListViewController.swift in Sources */,
+				99886CB220C6828600481E92 /* ChartFullViewController.swift in Sources */,
+				992C362520C515E200ABEF84 /* BubbleChartViewController.swift in Sources */,
+				99886CAE20C6828600481E92 /* Int+extension.swift in Sources */,
+				992C367F20C5257F00ABEF84 /* WXDivExtraComponent.swift in Sources */,
+				99BC849020BFFC680032EB84 /* Symbol.swift in Sources */,
+				99886CBC20C6828600481E92 /* SeriesSettingCell.swift in Sources */,
+				99886CB620C6828600481E92 /* ChartCustomDesignViewController.swift in Sources */,
+				992C361720C515E200ABEF84 /* BalloonMarker.swift in Sources */,
+				99BC847620BED8390032EB84 /* TmpViewController.swift in Sources */,
+				992C361D20C515E200ABEF84 /* HalfPieChartViewController.swift in Sources */,
+				992C362820C515E200ABEF84 /* AnotherBarChartViewController.swift in Sources */,
+				992C367B20C5257F00ABEF84 /* WXImageLoaderDefaultImplement.swift in Sources */,
+				99886CBF20C6828600481E92 /* ChartStyleSettingViewController.swift in Sources */,
+				992C361920C515E200ABEF84 /* DemoListViewController.swift in Sources */,
+				99BC849220BFFCE90032EB84 /* TrendPriceTime.swift in Sources */,
+				99886CAA20C6828600481E92 /* KlineChartData.swift in Sources */,
+				99886C1B20C662FE00481E92 /* Response.swift in Sources */,
+				99886CAB20C6828600481E92 /* SeriesParam.swift in Sources */,
+				99BC849D20C020300032EB84 /* NewsViewController.swift in Sources */,
+				992C368120C5257F00ABEF84 /* WXDivExtraComponent.m in Sources */,
+				992C361820C515E200ABEF84 /* RadarMarkerView.swift in Sources */,
+				99886CBE20C6828600481E92 /* ChartCustomViewController.swift in Sources */,
+				992C362120C515E200ABEF84 /* LineChart1ViewController.swift in Sources */,
+				992C361F20C515E200ABEF84 /* ColoredLineChartViewController.swift in Sources */,
+				992C362020C515E200ABEF84 /* LineChart2ViewController.swift in Sources */,
+				99886CBB20C6828600481E92 /* SeriesSettingDetailCell.swift in Sources */,
+				992C363020C515E200ABEF84 /* SinusBarChartViewController.swift in Sources */,
+				99886C1A20C662FE00481E92 /* MyNetworkActivityChangeType.swift in Sources */,
+				99BC846E20BEAAC50032EB84 /* MainViewController.swift in Sources */,
+				99886CA920C6828600481E92 /* ChartDatasFetcher.swift in Sources */,
+				992C361520C515E200ABEF84 /* LargeValueFormatter.swift in Sources */,
+				992C362220C515E200ABEF84 /* NegativeStackedBarChartViewController.swift in Sources */,
+				992C361320C515E200ABEF84 /* DayAxisValueFormatter.swift in Sources */,
+				99886CA520C6828600481E92 /* ChartDemoViewController.swift in Sources */,
+				99A9687020C7D1B8005E641D /* KlineResponse.swift in Sources */,
+				99BC848E20BFFBAA0032EB84 /* Market.swift in Sources */,
+				992C362D20C515E200ABEF84 /* PiePolylineChartViewController.swift in Sources */,
+				99886CB020C6828600481E92 /* NSDate+extension.swift in Sources */,
+				99886C1720C662FE00481E92 /* ObjectResponse.swift in Sources */,
+				992C362620C515E200ABEF84 /* LineChartFilledViewController.swift in Sources */,
+				99886C2120C662FE00481E92 /* Log.swift in Sources */,
+				99886C1920C662FE00481E92 /* ListResponse.swift in Sources */,
+				99886CBA20C6828600481E92 /* SectionHeaderView.swift in Sources */,
+				99886CB720C6828600481E92 /* SelectionPopView.swift in Sources */,
+				992C361420C515E200ABEF84 /* DateValueFormatter.swift in Sources */,
+				99886CB120C6828600481E92 /* ChartStyles.swift in Sources */,
+				99886C3220C66E7000481E92 /* StockViewController.swift in Sources */,
+				992C362E20C515E200ABEF84 /* CombinedChartViewController.swift in Sources */,
+				992C362B20C515E200ABEF84 /* RadarChartViewController.swift in Sources */,
+				99BC847220BED5720032EB84 /* FirstViewController.swift in Sources */,
+				99886C1420C662FE00481E92 /* SQLiteManager.swift in Sources */,
+				992C362A20C515E200ABEF84 /* CubicLineChartViewController.swift in Sources */,
+				992C361620C515E200ABEF84 /* XYMarkerView.swift in Sources */,
+				992C361220C515E200ABEF84 /* IntAxisValueFormatter.swift in Sources */,
+				99886C1820C662FE00481E92 /* APIService.swift in Sources */,
+				99886CBD20C6828600481E92 /* TickerTopView.swift in Sources */,
+				99886CB520C6828600481E92 /* ChartInTableViewController.swift in Sources */,
+				99E47C3A20BE650D0047A943 /* AppDelegate.swift in Sources */,
+				992C361B20C515E200ABEF84 /* MultipleLinesChartViewController.swift in Sources */,
+				992C363520C51D5000ABEF84 /* UserViewController.swift in Sources */,
+				99886C1D20C662FE00481E92 /* Foundation+Extension.swift in Sources */,
+				992C362F20C515E200ABEF84 /* BarChartViewController.swift in Sources */,
+				992C368020C5257F00ABEF84 /* WeexViewController.swift in Sources */,
+				99886CAC20C6828600481E92 /* Double+exension.swift in Sources */,
+				99BC849B20C01BBF0032EB84 /* LeftTableViewController.swift in Sources */,
+				99886CC920C68B5900481E92 /* KLineViewController.swift in Sources */,
+				99886C1320C662FE00481E92 /* NetworkTool.swift in Sources */,
+				992C361C20C515E200ABEF84 /* MultipleBarChartViewController.swift in Sources */,
+				99886CAD20C6828600481E92 /* UIColor+extension.swift in Sources */,
+				99886CB920C6828600481E92 /* KChartCell.swift in Sources */,
+				99886CAF20C6828600481E92 /* String+extension.swift in Sources */,
+				992C362420C515E200ABEF84 /* StackedBarChartViewController.swift in Sources */,
+				992C367A20C5257F00ABEF84 /* WXEventModule.m in Sources */,
+				992C361A20C515E200ABEF84 /* DemoBaseViewController.swift in Sources */,
+				99886C2920C6659C00481E92 /* Entity.swift in Sources */,
+				99886CB420C6828600481E92 /* SettingDetailViewController.swift in Sources */,
+				99886CA620C6828600481E92 /* DepthChartDemoViewController.swift in Sources */,
+				992C367E20C5257F00ABEF84 /* WXImgLoaderDefaultImpl.m in Sources */,
+				992C362920C515E200ABEF84 /* PieChartViewController.swift in Sources */,
+				992C367C20C5257F00ABEF84 /* WXMapComponent.swift in Sources */,
+				99886C2C20C66DBF00481E92 /* ChartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997E075920BD4DF30049543A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997E076220BD4DF30049543A /* BB8IOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997E076420BD4DF30049543A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997E076D20BD4DF30049543A /* BB8IOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		997E075F20BD4DF30049543A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 997E074020BD4DF30049543A /* BB8IOS */;
+			targetProxy = 997E075E20BD4DF30049543A /* PBXContainerItemProxy */;
+		};
+		997E076A20BD4DF30049543A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 997E074020BD4DF30049543A /* BB8IOS */;
+			targetProxy = 997E076920BD4DF30049543A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99E47C2B20BE650D0047A943 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E47C2C20BE650D0047A943 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		99E47C2D20BE650D0047A943 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E47C2E20BE650D0047A943 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		997E076F20BD4DF30049543A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "BB8IOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		997E077020BD4DF30049543A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "BB8IOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		997E077220BD4DF30049543A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBBE4A9DFB67A9DA9AFE2C9 /* Pods-BB8IOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SocketRocket",
+				);
+				INFOPLIST_FILE = BB8IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEBUG_LOG\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.BB8IOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BB8IOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		997E077320BD4DF30049543A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46BFA6F2CC7CDA351B22DDE /* Pods-BB8IOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SocketRocket",
+				);
+				INFOPLIST_FILE = BB8IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.BB8IOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BB8IOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		997E077520BD4DF30049543A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BB8IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.BB8IOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BB8IOS.app/BB8IOS";
+			};
+			name = Debug;
+		};
+		997E077620BD4DF30049543A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BB8IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.BB8IOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BB8IOS.app/BB8IOS";
+			};
+			name = Release;
+		};
+		997E077820BD4DF30049543A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BB8IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.BB8IOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BB8IOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		997E077920BD4DF30049543A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BB8IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fintech.BB8IOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BB8IOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		997E073C20BD4DF30049543A /* Build configuration list for PBXProject "BB8IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997E076F20BD4DF30049543A /* Debug */,
+				997E077020BD4DF30049543A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997E077120BD4DF30049543A /* Build configuration list for PBXNativeTarget "BB8IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997E077220BD4DF30049543A /* Debug */,
+				997E077320BD4DF30049543A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997E077420BD4DF30049543A /* Build configuration list for PBXNativeTarget "BB8IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997E077520BD4DF30049543A /* Debug */,
+				997E077620BD4DF30049543A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997E077720BD4DF30049543A /* Build configuration list for PBXNativeTarget "BB8IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997E077820BD4DF30049543A /* Debug */,
+				997E077920BD4DF30049543A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 997E073920BD4DF30049543A /* Project object */;
+}
